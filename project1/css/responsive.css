@@ -1,0 +1,117 @@
+/* ==========================================
+        For tablet responsive css starts
+   ========================================== */
+   @media only screen  and (min-width:200px) and (max-width:991px) {
+    .social-area {
+        /* float: right; */
+       
+        max-width: 374px;
+        padding-top: 14px;
+        
+    }
+    .inner_menu {
+        background: none;
+        min-height: auto;
+    }
+    .inner_menu::after {
+        background: none;
+    }
+    .mean-container .mean-nav {
+        
+        margin-top: 0px;
+        width: 80%;
+    }
+    .inner-header {
+        
+        padding: 20px 0;
+        /* background: lightsalmon; */
+    }
+    .slider_area{
+        margin-top: 0;
+    }
+    .inner_hero h2 {
+       
+        font-size: 55px;
+        
+    }
+    /* now to make the menu responsive  use meanmenu jquery plugin from a github repository */
+    
+
+}
+
+   /* ==========================================
+        For tablet responsive css ends
+   ========================================== */
+
+
+
+
+
+   /* ==========================================
+    For Mobile iphone6/7/8 responsive css starts
+    ============================================ */
+
+   @media only screen  and (min-width:200px) and (max-width:480px) {
+    .mini-menu {
+        width: 100%;
+        float: left;
+        padding-top: 5px;
+        margin-bottom: 10px;
+    }
+    .mini-menu ul, .social-area ul {
+       
+        text-align: center;
+    }
+    .search-area, .logo-area  {
+        width: 250px;
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .social-area ul li {
+        
+        margin: 0 5px;
+    }
+    .inner_hero h2 {
+        font-size: 25px;
+        text-align: center;
+    }
+    .inner_hero {
+        overflow: hidden;
+        padding-bottom: 20px;
+    }
+    #work_area, #footer_area {
+        
+        padding: 20px 0;
+    }
+    .child_work {
+        width: 98%;
+        
+    }
+    .child_footer {
+        
+        width: 96%;
+       
+    }
+    .child_blog a {
+        
+        float: left;
+        
+    }
+    .left_copyright {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .right_copyright {
+        width: 100%;
+        float: left;
+       
+        text-align: left;
+    }
+    
+
+}
+
+   /* ==========================================
+        For Mobile iphone6/7/8 responsive css ends
+   ========================================== */
